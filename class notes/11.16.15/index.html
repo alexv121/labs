@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+</head>
+<body ng-app>
+	<div>
+		
+		<input type="text" ng-model="Adjective"/>
+		<input type="text" ng-model="Noun"/>
+		<input type="counter" ng-model="total"/>
+		<input type="text" ng-model="mood"/>
+		<h1>Do you have <span>{{5+6}}</span> {{Adjective}} {{Noun}} feeling <span ng-init="mood">{{mood + " ?"}}</span></h1>
+		<span ng-init="mood='happy'">My mood is {{ mood + "!" }}</span><br>
+		<span>true || false : {{ true || false}}<br>
+			 false || false : {{ false || false }}<br>
+			  true && false : {{ true && false }}<br>
+			          !true : {{ !true }}</span>
+
+		<!--it will evaluate: take what's in the text box and put it in h1-->
+	</div>
+	<div ng-init="members=['
+	{image:"http://www1.pictures.zimbio.com/gi/Patrick+Stump+MTV+World+Stage+Monterrey+Mexico+TF8inClR0cfl.jpg", name:"Patrick Stump", instrument:"vocals/guitar"}', '{image:"http://data.whicdn.com/images/24637682/original.jpg", name:"Pete Wentz", instrument: "bass guitar/back up vocals "}', '{image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfAFKPvjviHiqGMGVwHO4jJnQN9lfrG2_pLXP1y9HQcFa7ad0i" , name:"Andy Hurley", instrument: "Percussion" }', '{image:"http://www.dimarzio.com/sites/default/files/imagecache/player_page_image/player/joe_trohman4.jpg", name:"Joe Trohman", instrument: "Guitar"}']">
+		<h3>Members of Fall Out Boy</h3>
+			<ul>
+				<li ng-repeat="member in members">{{member}}</li>
+			</ul>
+	</div>
+	<div ng-init="beatles=['John', 'Paul', 'George', 'Ringo']">
+		<h3>Names of The Beatles</h3>
+			<ul>
+				<li ng-repeat="beatle in beatles">{{beatle}}</li>
+			</ul>
+	</div>
+
+
+<script type="classnotes.js"></script>
+</body>
+</html>

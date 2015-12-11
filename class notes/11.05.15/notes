@@ -1,0 +1,91 @@
+//notes//
+do while executes at least once even if condition is false
+while is only going to do the thing if the condition is true
+for if you know how many times you want the loop to run
+
+var guess;
+
+do
+alert("what is aish'a favorite color?");
+
+while(guess !== "green");
+
+functions are ment to help you apply your fomula over and over
+
+dry up your code: i want you to condense down your code 
+
+
+		NAME FUNCTION (PERAMETER){
+		ARGUMENT
+		}
+		CALL FUNCTION (PASS VARIABLE CORISPONDING TO PERAMETE)
+
+function nameOne (x,y){
+	alert(x + "and" + y);
+}
+nameOne("tired"and"happy");
+
+******ONLY USE ONE OR TWO ARGUMENTS********
+
+ZERO BASED INDEX : assume everything starts at 0
+
+Arrays: can have more then one type of data 
+       ex: [objec, arrays, numbers, functions, string, bolean] 
+       		[var cat={name:"Midnight"},["","",""],16, function nameOne(){}, "string", true]
+
+       		myArray= [4,9, "car", "beer"]
+       		myArray.forEach(function(clone){
+       		console.log(clone)
+       		});
+
+       		array
+       		dot notation to execute a methodon that array
+       		expecting an argument
+       			that argument is a function that we will run on each element in the array
+       		forEach is specifically for arrays
+
+       			object name=keys key name followed by a colon and data value (any data type) 
+
+       			cats.name.forEach
+
+       		this: lets you within an object that has a function as a property reference that object
+       		 ex: cats = purr: function(){ console.log(this)}
+
+       		 cats.purr();
+
+       		*****CATS = OBJECT
+       		*****PURR = PROPERTY
+       		*****FUNCTION = KEY VALUE
+       		*****THIS = LOCAL REFERENCE TO OBJECT FUNCTION IS CONTAINED WITHIN 
+       		GLOBAL SCOPE: DECLARED OUTSIDE THE FUNCTION
+       		LOCAL SCOPE: DECLARED INSIDE THE FUNCTION
+
+       		var result = function (){
+       		return 1+5;
+       		}
+       		console.log(results)
+       		results is not a function but a reference to a function
+       		DOM:
+       		html
+       		to child 
+       		body and head
+       		body to child   head to child 
+       		div, p,         title,link, script
+       		div, p to child
+       		img, a 
+
+       		var nameList = document.getElementByTagName: REURNS ARRAY
+       		     look for in html
+       		     li(the tags)
+
+       		var nameList = document.getElementsByClassName: RETURNS ARRAY
+       			look for in html
+       			class=""
+       		var name = ocument.getElementByID RETURNS OBJEC
+       			look for 
+       			id = 
+
+
+       		****the tag and class are returned in an array becuase they contain more than one thing
+       		*****the id should only contain one thing making it an object 
+       		

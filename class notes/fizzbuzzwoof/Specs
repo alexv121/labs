@@ -1,0 +1,30 @@
+Specs
+
+describe('FizzBuzzWoof',function(){
+  it('it should return 1 as 1',function(){
+    expect(fizzbuzzwoof(1)).toBe(1);
+  });
+  
+  it('it should return 2 as 2',function() {
+    expect(fizzbuzzwoof(2)).toBe(2);
+  });
+  
+  it('it should return 3 as "fizz"',function() {
+    expect(fizzbuzzwoof(3)).toBe("fizz");
+  });
+  
+  it('it should return 6 as "fizz"',function() {
+    expect(fizzbuzzwoof(6)).toBe("fizz");
+  });
+  
+  it('it should return 5 as "fizz"',function() {
+    expect(fizzbuzzwoof(5)).toBe("buzz");
+  });
+  
+  it('it should return 10 as "fizz"',function() {
+    expect(fizzbuzzwoof(10)).toBe("buzz");
+  });
+  
+ it('it should return 7 as "fizz"',function() {
+    expect(fizzbuzzwoof(7)).toBe("woof");
+  });

@@ -1,0 +1,20 @@
+var school,
+teacher,
+student,
+
+var school = "Grand Circus";
+var teacher = "James";
+var student = "Alex";
+
+var yourButts = "hold on";
+var yourButts = 121;
+var yourButts = true;
+var yourButts = ['hold', 'onto', 'your', 'butts'];
+var yourButts = {
+youMust: 'hold onto them',
+all: 'of this is legal JavaScript',
+we: 'are reassigning these values to the same variable handle'
+};
+var yourButts = function() {
+return 'mindblown.gif';
+};

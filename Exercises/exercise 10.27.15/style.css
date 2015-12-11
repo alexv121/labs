@@ -1,0 +1,107 @@
+/*CSS Reset*/
+html, body, div, span, a, em, img, strong, header, nav, section, aside, footer {
+	background: transparent;
+	border:0;
+	margin:0;
+	padding:0;
+}
+/*End of reset*/
+
+body {
+	height:1000px;
+	margin: 10px;
+	width:80%;
+	font-family: "font_face":"GohuFont","Trebuchet MS","Lucida Granda","Lucida Sans",Tahoma, sans-serif;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/736x/67/fe/39/67fe391abb2fe31846d707d968dc334a.jpg);
+}
+
+header {
+	height: 150px;
+	text-align: center;
+}
+main {
+	padding:2%;
+	border: 5px solid #6D0839;
+	margin:2%;
+	width:53%;
+	float: left;
+}
+
+aside{
+	padding: 1%;
+	border-left: 5px dotted #D8C358;
+	margin: 1%;
+	width: 30%;
+	float: right;
+}
+
+footer{
+	padding:1%;
+	border: 10px double #25271E;
+	margin: 3% 5% 0;
+	text-align: center;
+	clear: both;
+}
+
+nav ul li{
+	padding: 5px 5px 5px 5px;
+	margin: 1%;
+	border: outset;
+}
+
+a{
+	color: #6D0839;
+}
+
+table{
+	color: yellow;
+}
+
+.green {
+	background-color: #D0E799;
+	padding: 10px;
+	text-align: center;
+}
+.fixed{
+	position: fixed;
+	color: purple;
+}
+
+.relative{
+	position: relative;
+	top:8px;
+	left: 8px;
+	color: orange;
+}
+
+.absolute {
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	color: green;
+	z-index: 0;
+
+}
+.fixed-nav{
+	display:;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.floatone{
+
+	width: center;
+	float: left;
+	color: yellow;
+	display: inline-block;
+}
+
+.floattwo{
+	width: center;
+	float: right 10px;
+	color: red;
+	display:inline-block;
+}
+.clearfix{
+	display: inline-block;
+}

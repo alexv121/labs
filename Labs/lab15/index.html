@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+	<link ref="stylesheet" href="style.css">
+	<script src="angular.js"></script>
+</head>
+<body ng-app>
+	<div>
+		<input type="text" ng-model="newitem">
+		<input type="number" ng-model="newprice">
+		<button type="submit">Add</button>
+		<h1>Shopping List</h1>
+		<h2> {{newitem}} cost {{newprice}} dollars</h2>
+
+		<div ng-init="items=[
+			{name:'apples', price:'3'},
+			{name:'oranges',price: '4'},
+			{name:'bannas',price:'5'}]">
+			<ul>
+				<li ng-repeat="item in items">
+					{{item.name}} {{item.price}}
+				</li>
+				<li>{{newitem}} {{newprice}}</li>
+		</div>
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>

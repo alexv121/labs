@@ -1,0 +1,51 @@
+/*CSS Reset*/
+
+html, body, div, span, a, em, img, strong, header, nav, ul, li, section, aside, footer {
+	background: transparent;
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+
+
+p {
+	width: 230px;
+	position: relative;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	color: yellow;
+}
+
+img{
+	width:10%;
+	position: absolute;
+	margin: 5px;
+	padding: 5px;
+	float: bottom;
+}
+
+.fixed-nav{
+	display:;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.absolute {
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	color: green;
+	z-index: 0;
+
+}
+
+.clear{
+	clear: both;
+	
+
+}
+
+

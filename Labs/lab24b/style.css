@@ -1,0 +1,45 @@
+style.css
+/* style.styl */
+h1 {
+color: #0982C1;
+}
+/* omit brackets */
+h2
+color: #0973B1;
+/* omit colons and semi-colons */
+h3
+color #FF81D3
+
+/*Transparent Mixins*/
+
+border-radius()
+	-webkit-border-radius: arguments
+	-moz-border-radius: arguments
+	border-radius: arguments
+
+button {
+	border-radius: 5px 10px;
+}
+
+/*OR*/
+
+
+button {
+	-webkit-border-radius: 5px 10px;
+	-moz-border-radius: 5px 10px;
+	border-radius: 5px 10px;
+}
+
+/*Naked Variables*/
+
+#prompt
+width: w = 200px
+margin-left: -(w / 2)
+
+/*OR*/
+
+#prompt {
+width: 200px;
+margin-left: -100px;
+}
+

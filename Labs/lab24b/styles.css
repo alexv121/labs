@@ -1,0 +1,14 @@
+h1 {
+  color: #0982c1;
+}
+button {
+  -webkit-border-radius: 5px 10px;
+  -moz-border-radius: 5px 10px;
+  border-radius: 5px 10px;
+}
+#prompt,
+width: w = 200px,
+margin-left: -(w / 2) {
+  width: 200px;
+  margin-left: -100px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lab24b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandra Vaughn",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "stylus": "^0.52.4"
+  }
+}
